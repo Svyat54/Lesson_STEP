@@ -32,7 +32,7 @@ public class Main17 {
 //        list1.pop(0); // удаляет первый эл тк index = 0
 //        list1.printList();
 
-        //sads
+
 
 
 
