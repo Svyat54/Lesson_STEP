@@ -63,9 +63,6 @@ public class Lesson11_1 {
 
 //        Car c1 = new Car();
 //        Car c2 = new Car("BMW","7 series","Black",340);
-//
-//
-//
 //        System.out.println(c1);
 //        System.out.println(c2);
 

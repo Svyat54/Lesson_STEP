@@ -1,34 +1,33 @@
 package com.company.Lesson.OOP.Lesson14;
 
-import com.company.Lesson.OOP.Car;
-
-public class sedan14 extends Car {
-    private boolean bag;
-
-    public sedan14(String model, String brand, boolean bag){
-        super(model, brand);
-        this.bag = bag;
-    }
-
-
-    public boolean inbag(){
-        return bag;
-    }
-
-    public void setBag(boolean bag){
-        this.bag = bag;
-    }
-
-    @Override
-    public void openDoor() {
-        System.out.println("Как на легковой");
-    }
-
-    @Override
-    public void signalSi() {
-        System.out.println("Pandora");
-    }
-}
+//import com.company.Lesson.OOP.Car;
+//
+//public class sedan14 extends Car {
+//    private boolean bag;
+//
+//    public sedan14(String model, String brand, boolean bag){
+//        super(model, brand);
+//        this.bag = bag;
+//    }
+//
+//    public boolean inbag(){
+//        return bag;
+//    }
+//
+//    public void setBag(boolean bag){
+//        this.bag = bag;
+//    }
+//
+//    @Override
+//    public void openDoor() {
+//        System.out.println("Как на легковой");
+//    }
+//
+//    @Override
+//    public void signalSi() {
+//        System.out.println("Pandora");
+//    }
+//}
 
 
 //package com.company;

@@ -1,4 +1,4 @@
-package com.company.Lesson;
+package com.company.Lesson.Lesson1_10;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;

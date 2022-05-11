@@ -1,4 +1,4 @@
-package com.company.Lesson;
+package com.company.Lesson.Lesson1_10;
 
 public class Lesson10 {
         //Напишите метод, который принимает два числа в качестве параметра и отображает все четные числа между ними
@@ -20,7 +20,7 @@ public class Lesson10 {
 
 //    //Напишите метод, который проверяет является ли число простым. Число передаётся в качестве параметра. Если число простое нужно вернуть из метода true, иначе false
 //    public static boolean task6 (int a){
-//    i < a / 2 +1
+////    i < a / 2 +1
 //        for (int i = 2; i < a - 1; i++){
 //            if (a % i == 0){
 //                return false;}}

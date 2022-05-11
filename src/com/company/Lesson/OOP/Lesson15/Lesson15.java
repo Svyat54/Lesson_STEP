@@ -32,9 +32,21 @@ public class Lesson15 {
 //        System.out.println();
 //        BankAgent15.getKazna();
 
+        //Task1
+        int [] arr = new int [] {13, 16, 45, 0, 58, 127, 64, 9, 8, 34, 128};
+        Task.task1(arr);
+
+        //Task2
+//        int [] arr = new int [] {0, 13, 16, 45, 4, 58, 127, 64, 9, 8, 34, 128};
+//        Task.task2(arr);
+
         //Task3
 //        int [] arr = new int[] {1, 4, 3, 7, 81, 144, 92};
 //        Task.task3(arr);
+
+        //Task4
+//        int [] arr = new int [] {0, 13, 16, 45, 4, 58, 127, 64, 9, 8, 34, 128};
+//        Task.task4(arr);
 
     }
 }

@@ -1,5 +1,8 @@
 package com.company.Lesson.OOP.Lesson17;
 
+import com.company.Lesson.OOP.Lesson18.List;
+import com.company.Lesson.OOP.Lesson18.Node;
+
 public class Main17 {
     public static void main (String [] args){
         Node node1 = new Node(1);
@@ -8,7 +11,7 @@ public class Main17 {
         Node node4 = new Node(4);
         List list1 = new List(node1);
 
-        node1.setNextNode(node2);
+        node1.setNextNode(node2); // Ссылаемся на следующую ноду с помощью setNextNode
         node2.setNextNode(node3);
         node3.setNextNode(node4);
 
@@ -33,12 +36,7 @@ public class Main17 {
 //        list1.printList();
 
 
-
-
-
-
-
-//        Node tmp = node1;
+//        Node tmp = node1; //Пока нода не равна нул, идёт присвоение текущей ноды
 //        while (tmp != null){
 //            System.out.println(tmp.getValue());
 //            tmp = tmp.getNextNode();
