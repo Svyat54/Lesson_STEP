@@ -7,6 +7,30 @@ public class ListIterator implements Iterator <Node> {
     private Node tmp;
     private int count;
 
+    public List getList() {
+        return list;
+    }
+
+    public void setList(List list) {
+        this.list = list;
+    }
+
+    public Node getTmp() {
+        return tmp;
+    }
+
+    public void setTmp(Node tmp) {
+        this.tmp = tmp;
+    }
+
+//    public int getCount() {
+//        return count;
+//    }
+//
+//    public void setCount(int count) {
+//        this.count = count;
+//    }
+
     public ListIterator(List list) {
         this.list = list;
         this.tmp = list.getHead();

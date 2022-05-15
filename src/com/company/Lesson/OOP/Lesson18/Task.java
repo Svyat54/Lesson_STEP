@@ -123,16 +123,41 @@ public class Task {
 
     //Task8 - Определить, входит ли список L1 в L2.
     //
+    public static boolean task8 (List bList, List sList){
+        Node bigList = bList.getHead();
+        Node smalList = sList.getHead();
+        while (bigList.getNextNode() != null){
+            if (bigList.getValue() == smalList.getValue()){
+                while (smalList.getNextNode() != null){
+                    smalList = smalList.getNextNode();
+                    bigList = bigList.getNextNode();
+                    while (bigList.getValue() != smalList.getValue()){
+                        return false;
+                    }
+                }
+            }
+            bigList = bigList.getNextNode();
+        }
+        return true;
+    }
+
     //Task9 - Перевернуть список наоборот.
     public static void task9(List list){
         Node tmp = list.getHead();
 
         while (tmp.getNextNode() != null){
-            String[] arr = tmp.getValue().toString().split("");
-            for(int i = arr.length - 1; i >= 0; i--){
-                System.out.println(arr[i]);
+//            String[] arr = tmp.getValue().toString().split("");
+//            for(int i = arr.length - 1; i >= 0; i--){
+//                System.out.println(arr[i]);
+//            }
+//            tmp = tmp.getNextNode();
+                tmp = tmp.getNextNode();
             }
-            tmp = tmp.getNextNode();
+            tmp = list.getHead();
+            while (tmp != null) {
+                System.out.println(tmp.getValue());
+                }
+                tmp = tmp.getNextNode();
         }
     }
-}
+
