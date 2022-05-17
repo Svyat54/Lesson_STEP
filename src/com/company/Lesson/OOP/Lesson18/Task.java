@@ -1,5 +1,7 @@
 package com.company.Lesson.OOP.Lesson18;
 
+import java.util.Arrays;
+
 public class Task {
     //Task1 - Найти среднее арифметическое значение элементов списка.
     //
@@ -78,7 +80,7 @@ public class Task {
             while (tmp != null) {
                 if (tmp.getValue().equals(list.getHead().getValue())) {
                     count++;
-                    System.out.println(tmp.getValue());
+//                    System.out.println(tmp.getValue());
                 }
                 tmp = tmp.getNextNode();
             }
@@ -143,21 +145,15 @@ public class Task {
 
     //Task9 - Перевернуть список наоборот.
     public static void task9(List list){
-        Node tmp = list.getHead();
-
-        while (tmp.getNextNode() != null){
-//            String[] arr = tmp.getValue().toString().split("");
-//            for(int i = arr.length - 1; i >= 0; i--){
-//                System.out.println(arr[i]);
-//            }
-//            tmp = tmp.getNextNode();
-                tmp = tmp.getNextNode();
+        Node tmp; // создаём ноду
+        for (int i = 0; i < list.getLenght(); i++) {   // цикл по длине листа
+            tmp = list.getHead(); // объявляем ноду головой
+            while (tmp.getNextNode() != null) {   // доходим до последнего элемента
+                tmp = tmp.getNextNode(); // прявязываем значение ноды, последнего элемента
             }
-            tmp = list.getHead();
-            while (tmp != null) {
-                System.out.println(tmp.getValue());
-                }
-                tmp = tmp.getNextNode();
+            list.push(tmp.getValue(), i); // добавляем tmp в начало по индексу
+            list.pop(); // удаляем последний элемент списка
+        }
         }
     }
 

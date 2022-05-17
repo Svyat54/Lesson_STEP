@@ -139,7 +139,6 @@ public class Task {
             stringBuilderSmall.append(lsti.getTmp().getValue().toString());
             lsti.next();
         }
-        System.out.println(stringBuilderSmall);
         return (stringBuilderBig.toString().contains(stringBuilderSmall.toString()));
     }
     //Task9 - Перевернуть список наоборот.

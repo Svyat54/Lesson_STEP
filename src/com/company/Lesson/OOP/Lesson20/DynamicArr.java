@@ -11,11 +11,11 @@ public class DynamicArr {
         this.lenght = arr.length;
     }
     public void push(int numb){
-        int [] arr1 = new int [lenght + 1];
+        int [] arr1 = new int [lenght + 1]; // создаём массив на + 1 длину больше
         for (int i =0; i < this.lenght; i++){
-            arr1[i] = arr[i];
+            arr1[i] = arr[i]; // копируем массив
         }
-        arr1[lenght] = numb;
+        arr1[lenght] = numb; // добавляем в новый элемент число
         this.arr = arr1;
         this.lenght++;
     }
