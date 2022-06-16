@@ -1,5 +1,7 @@
 package com.company.Lesson.OOP.Lesson19;
 
+import com.company.Lesson.OOP.Lesson18.Node;
+
 public class Task {
     //Task1 - Найти среднее арифметическое значение элементов списка.
     //Done
@@ -143,14 +145,16 @@ public class Task {
     }
     //Task9 - Перевернуть список наоборот.
     public static void task9(List list){
-        Node tmp = list.getHead();
+//        ListIterator lsti;
+//        for (int i = 0; i < list.getLenght(); i++) {
+//            lsti = new ListIterator(list);
+//            while (lsti.getTmp().getNextNode() != null) {
+//                lsti = ; // прявязываем значение ноды, последнего элемента
+//            }
+//            list.push(tmp.getValue(), i); // добавляем tmp в начало по индексу
+//            list.pop(); // удаляем последний элемент списка
 
-        while (tmp.getNextNode() != null){
-            String[] arr = tmp.getValue().toString().split("");
-            for(int i = arr.length - 1; i >= 0; i--){
-                System.out.println(arr[i]);
-            }
-            tmp = tmp.getNextNode();
-        }
+
+//        }
     }
 }

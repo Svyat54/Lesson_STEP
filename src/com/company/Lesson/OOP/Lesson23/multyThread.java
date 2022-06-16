@@ -4,6 +4,10 @@ public class multyThread extends Thread{
     private int numThread;
     private long sum;
 
+    public int getNumThread() {
+        return numThread;
+    }
+
     public multyThread(int numThread){
         this.numThread = numThread;
         this.sum = 0;
@@ -40,10 +44,15 @@ public class multyThread extends Thread{
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
+//        long time = System.currentTimeMillis();
         for(int i =0; i < (numThread + 1) * 1000000 ; i++){
             sum += i;
 //            sum++;
         }
+//        System.out.println("Поток "+ numThread + " " + (System.currentTimeMillis() - time));
+//        System.out.println(System.currentTimeMillis() - time);
+
         }
+
     }
 

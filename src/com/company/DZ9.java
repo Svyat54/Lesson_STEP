@@ -109,8 +109,8 @@ public class DZ9 {
 //        System.out.print("Введите текст до 50 символов ");
 //        String str = sc.nextLine();
 //        String [] arr = str.split("");
-
-        //Мой вариант
+//
+//        //Мой вариант
 //        if (arr.length > 50)
 //            System.out.println("Введено слово превышающее 50 символов");
 //        else {

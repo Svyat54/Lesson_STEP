@@ -56,15 +56,23 @@ public class Main19 {
 //        System.out.println(Task.task7(list));
 
         //Task8
-        String[] arrayOfStringsBigTask8 = {"alpha", "brandy", "crash", "Java", "lie", "opportunity", "rock",
-                "towel", "Uranus", "victory", "zoo"};
-        String[] arrayOfStringsSmallTask8 = {"crash", "Java", "lie", "opportunity", "rock", "towel"};
-        List bList = new List(arrayOfStringsBigTask8);
-        bList.printList();
+//        String[] arrayOfStringsBigTask8 = {"alpha", "brandy", "crash", "Java", "lie", "opportunity", "rock",
+//                "towel", "Uranus", "victory", "zoo"};
+//        String[] arrayOfStringsSmallTask8 = {"crash", "Java", "lie", "opportunity", "rock", "towel"};
+//        List bList = new List(arrayOfStringsBigTask8);
+//        bList.printList();
+//        System.out.println();
+//        List sList = new List(arrayOfStringsSmallTask8);
+//        sList.printList();
+//        System.out.println();
+//        System.out.println(Task.task8(bList,sList));
+
+        //Task9
+        String[] arrayOrStringsTask9 = {"crash", "Java", "lie", "opportunity", "rock", "towel", "Uranus"};
+        List list = new List(arrayOrStringsTask9);
+        list.printList();
         System.out.println();
-        List sList = new List(arrayOfStringsSmallTask8);
-        sList.printList();
-        System.out.println();
-        System.out.println(Task.task8(bList,sList));
+        Task.task9(list);
+        list.printList();
     }
 }

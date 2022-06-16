@@ -54,12 +54,12 @@ public class Main18 {
 //        System.out.println();
 //        System.out.println(Task.task8(bList,sList));
 
-        String[] arrayOrStringsTask9 = {"crash", "Java", "lie", "opportunity", "rock", "towel", "Uranus"};
-        List list = new List(arrayOrStringsTask9);
-        list.printList();
-        System.out.println();
-        Task.task9(list);
-        list.printList();
+//        String[] arrayOrStringsTask9 = {"crash", "Java", "lie", "opportunity", "rock", "towel", "Uranus"};
+//        List list = new List(arrayOrStringsTask9);
+//        list.printList();
+//        System.out.println();
+//        Task.task9(list);
+//        list.printList();
 
 
 

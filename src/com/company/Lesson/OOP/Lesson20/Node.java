@@ -3,6 +3,7 @@ package com.company.Lesson.OOP.Lesson20;
 public class Node {
     private Object value;
     private Node nextNode;
+    private Node prevNode;
 
     public Node getPrevNode() {
         return prevNode;
@@ -11,8 +12,6 @@ public class Node {
     public void setPrevNode(Node prevNode) {
         this.prevNode = prevNode;
     }
-
-    private Node prevNode;
 
     public Object getValue() {
         return value;
